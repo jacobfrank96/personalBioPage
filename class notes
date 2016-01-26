@@ -1,0 +1,29 @@
+structure
+<htlm> <body> <hr> <br>
+
+semantic
+<h1> <p> <ul> <ol> <li>
+
+<ul>
+  <li>list item one</li>
+  <li>another item
+    <ol>
+      <li>sub item</li>
+      <li>another one</li>
+    </ol>
+  </li>
+</ul>
+
+
+
+<a href="http://google.com" target="_blank">link text</a>
+
+<a href="#heading">link text</a>
+...
+<div id="heading">
+  <h1>helloWorld</h>
+</div>
+
+relative  <a href="anotherPage.html">link text</a>
+root      <a href="/anotherPage.html">link text</a>
+absolute  <a href="http://anotherPage.html">link text</a> 
